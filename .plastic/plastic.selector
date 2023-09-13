@@ -1,0 +1,4 @@
+repository "ShaderGraphLearning@sophieshen@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
