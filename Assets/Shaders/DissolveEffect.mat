@@ -39,12 +39,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DissolveAmount: 0.9675546
+    - _DissolveAmount: 0.4001333
     - _DissolveThickness: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _DissolveColor: {r: 472.14154, g: 0, b: 44.495014, a: 0}
+    - _DissolveColor: {r: 16.94838, g: 1.5351338, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &9141809247151148329
 MonoBehaviour:

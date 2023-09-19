@@ -7,16 +7,12 @@ public class Collision : MonoBehaviour
 {
     private void OnCollisionEnter(UnityEngine.Collision collision)
     {
-        if (collision.collider.gameObject.tag == "Gem")
-        {
-            Debug.Log("Wuhu!");
-        }
         switch (collision.gameObject.tag)
         {
             case "Gem":
                 Debug.Log("You ate a gem!");
                 break;
-            default : break;
+            default: break;
         }
     }
 
