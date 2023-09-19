@@ -7,24 +7,23 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DissolveEffect
-  m_Shader: {fileID: -6465566751694194690, guid: aeeb30f05c307814a88e024ae0e741f0,
+  m_Name: ForceFieldEffect
+  m_Shader: {fileID: -6465566751694194690, guid: e63b047441b82e34e8a4b433e35eaf48,
     type: 3}
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 37053e86e9e13574fa270aa1549b7ae2, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -39,14 +38,31 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DissolveAmount: 0.9466634
-    - _DissolveThickness: 0.05
+    - _AlphaClip: 0
+    - _Blend: 2
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DotSize: 0.9
+    - _DstBlend: 1
+    - _FieldThicknessInterset: 0.75
+    - _Fill: 0.08
+    - _FresnelPower: 5.12
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _TilingSpeed: 0.5
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
     m_Colors:
-    - _DissolveColor: {r: 16.94838, g: 1.5351338, b: 0, a: 0}
+    - _BaseColor: {r: 0, g: 0.7784431, b: 1, a: 0}
+    - _DotTiling: {r: 80, g: 50, b: 0, a: 0}
+    - _IntersectionColor: {r: 3.7037938, g: 3.7037938, b: 3.7037938, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &9141809247151148329
+--- !u!114 &3724166242035320030
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
