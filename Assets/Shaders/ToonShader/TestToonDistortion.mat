@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1418757406824631239
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,9 +20,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DissolveEffect
-  m_Shader: {fileID: -6465566751694194690, guid: aeeb30f05c307814a88e024ae0e741f0,
+  m_Name: TestToonDistortion
+  m_Shader: {fileID: -6465566751694194690, guid: d08f0ffc21e74e74d9c15f3099f87930,
     type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
@@ -18,11 +33,12 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 37053e86e9e13574fa270aa1549b7ae2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 704c91aaf5f4d2849870d811230cfc61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -39,23 +55,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DissolveAmount: 0.62256
-    - _DissolveThickness: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RimLightAmount: 5.36
+    - _RimLightThickness: 0.954
+    - _ToonRampOffset: 0
+    - _ToonRampSmoothness: 0
     m_Colors:
-    - _DissolveColor: {r: 16.94838, g: 1.5351338, b: 0, a: 0}
+    - _RimColorOffset: {r: 0.9716981, g: 0.8673213, b: 0.86627805, a: 0}
+    - _TintColor: {r: 0.1514774, g: 0.64174247, b: 0.8679245, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &9141809247151148329
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 5
