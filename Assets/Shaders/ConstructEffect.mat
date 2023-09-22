@@ -41,7 +41,7 @@ Material:
     m_Floats:
     - _Divid: 5
     - _HeadThickness: 0.05
-    - _Progress: 0.3942757
+    - _Progress: 0.41656908
     m_Colors:
     - _GlowColor: {r: 0, g: 5.9867415, b: 7.3772106, a: 0}
   m_BuildTextureStacks: []
