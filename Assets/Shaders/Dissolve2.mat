@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DissolveEffect
-  m_Shader: {fileID: -6465566751694194690, guid: aeeb30f05c307814a88e024ae0e741f0,
+  m_Name: Dissolve2
+  m_Shader: {fileID: -6465566751694194690, guid: aaf88082e595ecf43ab341e7fcf8e033,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -39,14 +39,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DissolveAmount: 0.396
-    - _DissolveThickness: 0.05
+    - _DissolveAmount: 0.17
+    - _DissolveThickness: 0.1
+    - _NoiseScale: 50
+    - _NoiseValue: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _DissolveColor: {r: 16.94838, g: 1.5351338, b: 0, a: 0}
+    - _DissolveColor: {r: 5.278032, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &9141809247151148329
+--- !u!114 &4819869961752484174
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

@@ -56,8 +56,8 @@ Material:
     - _QueueOffset: 0
     - _RimLightBrightness: 0.39
     - _RimlightNumber: 10
-    - _ToonRampOffset: 0.73
+    - _ToonRampOffset: 1
     - _ToonRampSmoothness: 0
     m_Colors:
-    - _ToonRampTint: {r: 0.6509434, g: 0.5496173, b: 0.5496173, a: 0}
+    - _ToonRampTint: {r: 0.745283, g: 0.0035154943, b: 0.0035154943, a: 0}
   m_BuildTextureStacks: []

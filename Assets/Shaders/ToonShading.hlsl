@@ -30,7 +30,7 @@ in float ToonRampOffset, out float3 ToonRampOutput, out float3 Direction)
 		// multiply with shadows;
 		toonRamp *= light.shadowAttenuation;
 		// add in lights and extra tinting
-		ToonRampOutput = light.color * (toonRamp + ToonRampTinting) ;
+		ToonRampOutput = light.color * (toonRamp * ToonRampTinting) ;
 		// output direction for rimlight
 		Direction = light.direction;
 	#endif
