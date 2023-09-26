@@ -35,7 +35,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DistortionAmount: 2
+    - _DistortionAmount: 3
     - _MovingSpeed: 5
     - _NoiseScale: 1.5
     - _QueueControl: 0
