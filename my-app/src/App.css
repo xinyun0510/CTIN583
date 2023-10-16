@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  align-items: center;
+  align-content: center;
+  display: block;
+  margin: auto;
+  justify-content: center;
 }
 
 .App-logo {
@@ -17,11 +22,10 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  font-style: normal;;
+  flex-direction: row;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +39,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.HeaderBar {
+  /* width: 80%; */
+  /* background-color: rgba(255, 255, 255, .6); */
+  z-index: 1;
+  padding: 3px;
+  margin: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 50px;
+  font-family: "gigalypse", sans-serif;
+  /* color:darkslateblue; */
+  color: white;
+  text-shadow:coral 2px 2px 20px;
+}
+.Unity {
+  width: 100%;
+  /* height: 100%; */
+  position: fixed;
+  padding: 0;
+  /* padding-top: -50px; */
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  top: 0;
+  /* margin-top: -10px; */
 }
